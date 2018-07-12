@@ -6,17 +6,17 @@
     <link href="./resources/css/style.css" type="text/css" rel="stylesheet"/>
   </head>
   <body>
-    <div class="heading">
+    <div id="home" class="heading">
       <h1 class="header">Broadway Design</h1>
 
-      <p><a  class="link" href="#">Home</a></p>
-      <p><a  class="link" href="#">About</a></p>
-      <p><a  class="link" href="#">Work</a></p>
-      <p><a  class="link" href="#">Team</a></p>
-      <p><a  class="link" href="#">Contact</a></p>
+      <p><a  class="link" href="#home">Home</a></p>
+      <p><a  class="link" href="#process">About</a></p>
+      <p><a  class="link" href="#work">Work</a></p>
+      <p><a  class="link" href="#team">Team</a></p>
+      <p><a  class="link" href="#contact">Contact</a></p>
     </div>
 
-    <div class="process">
+    <div id="process" class="process">
       <h1 class="process-heading">Our Process</h1>
 
       <img src="./resources/media/identify.svg"/>
@@ -30,6 +30,33 @@
       <img src="./resources/media/execute.svg"/>
       <p class="process-subheading">Execute</p>
       <p class="process-desc">We put everything we have into our work.</p>
+    </div>
+
+    <div class="stylebar">
+      <p>Designed in New York</p>
+    </div>
+
+    <div class="footer">
+      <p id="work" class="process-subheading">Portfolio</p>
+      <p class="process-desc">Coming Soon</p>
+
+      <p id="team" class="process-subheading">Team</p>
+      <p class="process-desc">We're Hiring!</p>
+
+      <p id="contact" class="process-subheading">Contact</p>
+      <p class="process-desc">Phone: (555)-555-5555</p>
+      <p class="process-desc">Email: test@example.com</p>
+      <p class="process-desc">Twitter: @test</p>
+    </div>
+
+    <div class="footerbar">
+      <p class="fbar-text">© Broadway 2016
+        <a  class="link" href="#home">Home</a>
+        <a  class="link" href="#process">About</a>
+        <a  class="link" href="#work">Work</a>
+        <a  class="link" href="#team">Team</a>
+        <a  class="link" href="#contact">Contact</a>
+      </p>
     </div>
   </body>
 </html>

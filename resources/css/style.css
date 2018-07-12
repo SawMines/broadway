@@ -31,3 +31,20 @@ body {
 .process-desc {
   font-size: 14px
 }
+
+.stylebar {
+  font-size: 23px;
+  font-weight: bold;
+  color:white;
+  background-image: url(./../media/the-flatiron-building.png);
+}
+
+.footerbar {
+  background: dimgray;
+  color: white;
+  text-align: left;
+}
+
+.fbar-text {
+  font-size: 11px;
+}
