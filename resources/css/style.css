@@ -17,3 +17,17 @@ body {
   color: white;
   font-size: 18px
 }
+
+.process-heading {
+  font-size: 32;
+  font-weight: bold;
+}
+
+.process-subheading {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.process-desc {
+  font-size: 14px
+}
